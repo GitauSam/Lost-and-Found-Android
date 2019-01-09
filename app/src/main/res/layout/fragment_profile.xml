@@ -1,0 +1,189 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="13dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/lightgrey"
+        android:padding="13dp">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="7.5dp"
+            android:background="@drawable/profile_pic_background"/>
+
+        <TextView
+            android:id="@+id/text_view_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7.5dp"
+            android:fontFamily="@font/lato"
+            android:gravity="center"
+            android:text="@string/frag_profile_tv_user_name"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_view_phone_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato"
+            android:gravity="center"
+            android:text="@string/frag_profile_document_number"
+            android:textSize="15sp" />
+    </LinearLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="12dp">
+
+        <TextView
+            android:id="@+id/text_view_static_name"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato"
+            android:padding="5dp"
+            android:text="@string/frag_profile_tv_lbl_name"
+            android:textAlignment="textEnd"
+            android:textColor="@color/darkgreen"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/text_view_full_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/text_view_static_name"
+            android:fontFamily="@font/lato_bold"
+            android:padding="5dp"
+            android:text="@string/frag_profile_tv_name"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/text_view_static_gender"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_view_static_name"
+            android:fontFamily="@font/lato"
+            android:padding="5dp"
+            android:text="@string/frag_profile_tv_lbl_sex"
+            android:textAlignment="textEnd"
+            android:textColor="@color/darkgreen"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/text_view_gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_full_name"
+            android:layout_toRightOf="@+id/text_view_static_gender"
+            android:fontFamily="@font/lato_bold"
+            android:padding="5dp"
+            android:text="@string/frag_profile_tv_sex"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/text_view_static_age"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_static_gender"
+            android:fontFamily="@font/lato"
+            android:padding="5dp"
+            android:text="@string/frag_profile_tv_lbl_age"
+            android:textAlignment="textEnd"
+            android:textColor="@color/darkgreen"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/text_view_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_gender"
+            android:layout_toRightOf="@+id/text_view_static_age"
+            android:fontFamily="@font/lato_bold"
+            android:padding="5dp"
+            android:text="@string/frag_profile_tv_age"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/text_view_static_document"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_static_age"
+            android:fontFamily="@font/lato"
+            android:padding="5dp"
+            android:text="@string/frag_profile_tv_lbl_document_type"
+            android:textAlignment="textEnd"
+            android:textColor="@color/darkgreen"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/text_view_document"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_age"
+            android:layout_toRightOf="@+id/text_view_static_document"
+            android:fontFamily="@font/lato_bold"
+            android:padding="5dp"
+            android:text="@string/frag_profile_tv_document_type"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/text_view_static_poi"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_static_document"
+            android:fontFamily="@font/lato"
+            android:padding="5dp"
+            android:text="@string/frag_profile_tv_lbl_place_of_issue"
+            android:textAlignment="textEnd"
+            android:textColor="@color/darkgreen"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/text_view_poi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_document"
+            android:layout_toRightOf="@+id/text_view_static_poi"
+            android:fontFamily="@font/lato_bold"
+            android:padding="5dp"
+            android:text="@string/frag_profile_tv_place_of_issue"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/text_view_static_phone_no"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_static_poi"
+            android:fontFamily="@font/lato"
+            android:padding="5dp"
+            android:text="@string/frag_profile_tv_lbl_phone_no"
+            android:textAlignment="textEnd"
+            android:textColor="@color/darkgreen"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/text_view_dynamic_phone_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text_view_poi"
+            android:layout_toRightOf="@+id/text_view_static_phone_no"
+            android:fontFamily="@font/lato_bold"
+            android:padding="5dp"
+            android:text="@string/frag_profile_tv_phone_no"
+            android:textSize="14sp" />
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:src="@drawable/ic_action_edit"/>
+    </RelativeLayout>
+</LinearLayout>

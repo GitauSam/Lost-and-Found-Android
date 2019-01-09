@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato_black"
+            android:text="@string/activity_update_details_tv_update_details"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2.5dp"
+            android:text="@string/activity_update_details_tv_update_details_subheader"
+            android:textColor="#8E8E8E"
+            android:textSize="12sp" />
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/lato"
+            android:hint="@string/activity_update_details_inputedittext_hint_firstname"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/lato"
+            android:hint="@string/activity_update_details_inputedittext_hint_middle_name"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/lato"
+            android:hint="@string/activity_update_details_inputedittext_hint_last_name"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textSize="14sp" />
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7.5dp"
+            android:fontFamily="@font/lato"
+            android:hint="@string/activity_update_details_inputedittext_hint_phone_no"
+            android:inputType="number"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/darkgreen"
+        android:fontFamily="@font/lato"
+        android:text="@string/activity_update_details_bt_update"
+        android:textColor="@color/white"
+        android:textSize="13sp" />
+</RelativeLayout>

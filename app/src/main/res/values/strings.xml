@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">Huduma</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Common-->
+    <string name="common_edittext_hint_phone_no">Phone No e.g. +123456</string>
+    <string name="common_edittext_hint_password">Password</string>
+    <string name="common_edittext_hint_confirm_password">Confirm Password</string>
+    <string name="common_btn_log_in">LOG IN</string>
+    <string name="common_btn_register">REGISTER</string>
+    <string name="common_iv_huduma_logo">Huduma Logo</string>
+
+    <!--Splash Activity-->
+    <string name="activity_splash_search_icon">Search</string>
+    <string name="activity_splash_tv_find_id">find your lost ID card</string>
+
+    <!--Sign In Activity-->
+    <string name="activity_signin_tv_already_have_an_account">Already have an account? Sign Up HERE</string>
+
+    <!--Welcome Activity-->
+    <string name="activity_welcome_huduma_large_icon">Welcome to Huduma</string>
+    <string name="activity_welcome_btn_report_lost_id">REPORT LOST NATIONAL ID CARD</string>
+    <string name="activity_welcome_btn_update_profile">UPDATE YOUR PROFILE</string>
+    <string name="activity_welcome_scan_id">SCAN YOUR NATIONAL ID CARD</string>
+
+    <!--Report Activity-->
+    <string name="activity_report_tv_report_lost_document">Report lost document</string>
+    <string name="activity_report_tv_report_lost_document_subheader">You can report any document lost through this app. However, we currently only support scanning and locating ID cards only.</string>
+    <string name="activity_report_tv_select_document_type">Select document type</string>
+    <string name="activity_report_inputedittext_document_number">Document Number</string>
+    <string name="activity_report_bt_report">REPORT</string>
+
+    <!--Update Details Activity-->
+    <string name="activity_update_details_tv_update_details">Update your personal details</string>
+    <string name="activity_update_details_tv_update_details_subheader">Please enter your personal details; Your name as it appears on your ID and a valid phne number that we can reach you on incase you lose your document</string>
+    <string name="activity_update_details_inputedittext_hint_firstname">First Name as on ID card</string>
+    <string name="activity_update_details_inputedittext_hint_middle_name">Middle Name as on ID card</string>
+    <string name="activity_update_details_inputedittext_hint_last_name">Last Name as on ID card</string>
+    <string name="activity_update_details_inputedittext_hint_phone_no">Phone number</string>
+    <string name="activity_update_details_bt_update">UPDATE</string>
+
+    <!--Fragment Lost & Found-->
+    <string name="frag_lostnfound_tv_found_id">Found ID Card</string>
+    <string name="frag_lostnfound_found_id_dialog_cancel_icon">Found ID dialog cancel icon</string>
+    <string name="frag_lostnfound_tv_found_id_dialog_details">Your ID card was found registered in our database, please visit our branch at GPO to pick it. You may call us on: +254 (020) 6900020</string>
+    <string name="frag_lostnfound_tv_user_found_lost_documents">Your lost and found documents</string>
+    <string name="frag_lostnfound_tv_user_lost_found_documents_details">Below are documents that you reported lost or have been reported as found at several of our centres.</string>
+    <string name="frag_lostnfound_tv_document_type">Type</string>
+    <string name="frag_lostnfound_tv_document_number">Number</string>
+    <string name="frag_lostnfound_tv_document_status">Status</string>
+
+    <!--Fragment Profile-->
+    <string name="frag_profile_tv_user_name">Miguna Miguna</string>
+    <string name="frag_profile_document_number">234881077</string>
+    <string name="frag_profile_tv_lbl_name">Name</string>
+    <string name="frag_profile_tv_name">Joshua Miguna Miguna</string>
+    <string name="frag_profile_tv_lbl_sex">Sex</string>
+    <string name="frag_profile_tv_sex">Male</string>
+    <string name="frag_profile_tv_lbl_age">Age</string>
+    <string name="frag_profile_tv_age">36</string>
+    <string name="frag_profile_tv_lbl_document_type">Document</string>
+    <string name="frag_profile_tv_document_type">National ID</string>
+    <string name="frag_profile_tv_lbl_place_of_issue">Place of Issue</string>
+    <string name="frag_profile_tv_place_of_issue">Westlands</string>
+    <string name="frag_profile_tv_lbl_phone_no">Phone Number</string>
+    <string name="frag_profile_tv_phone_no">+254 12345678</string>
+
+    <!--Activity Capture-->
+    <string name="activity_capture_tcv_scan_id">Scan your ID</string>
+    <string name="activity_capture_tv_additional_details">Please place the ID card within the squares</string>
+    <string name="activity_capture_tv_document_captured">National ID Captured</string>
+    <string name="activity_capture_iv_captured_document">Captured Document</string>
+    <string name="activity_capture_bt_upload">UPLOAD</string>
+
+    <!--Activity Details Captured-->
+    <string name="activity_details_captured_tv_details_captured">Details captured</string>
+    <string name="activity_details_captured_tv_additional_details">We have captured the following details from your ID card. Please confirm, or retry.</string>
+    <string name="activity_details_captured_iv_captured_details_description">Captured details image</string>
+    <string name="activity_details_captured_tv_lbl_name">Name</string>
+    <string name="activity_details_captured_tv_lbl_sex">Sex</string>
+    <string name="activity_details_captured_tv_lbl_age">Age</string>
+    <string name="activity_details_captured_tv_lbl_document">Document</string>
+    <string name="activity_details_captured_tv_lbl_place_of_issue">Place of Issue</string>
+    <string name="activity_details_captured_tv_lbl_phone_no">Phone Number</string>
+    <string name="activity_details_captured_bt_lbl_retry">RETRY</string>
+    <string name="activity_details_captured_bt_lbl_next">NEXT</string>
+
+</resources>
